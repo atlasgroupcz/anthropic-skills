@@ -1,5 +1,5 @@
 {
-  "name": "anthropic-agent-skills",
+  "name": "anthropic-skills",
   "version": "1.0.0",
   "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
   "homepage": "https://github.com/anthropics/skills",
@@ -31,7 +31,7 @@
   "strict": false,
   "i18n": {
     "en": {
-      "displayName": "Anthropic Agent Skills",
+      "displayName": "Anthropic Skills",
       "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
       "tagLabels": {
         "skills": "Skills",

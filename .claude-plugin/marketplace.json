@@ -1,6 +1,6 @@
 {
   "uuid": "481c87a4-ce4c-45ad-bbe3-f55e3fa531d1",
-  "name": "anthropic-agent-skills",
+  "name": "anthropic-skills",
   "description": "Anthropic Agent Skills marketplace for CODEXIS AI 2.0",
   "owner": {
     "name": "Anthropic",
@@ -12,7 +12,7 @@
   },
   "i18n": {
     "en": {
-      "displayName": "Anthropic Agent Skills",
+      "displayName": "Anthropic Skills",
       "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
       "tagLabels": {
         "skills": "Skills",
@@ -27,13 +27,13 @@
   "plugins": [
     {
       "uuid": "0fbb666f-c048-4786-8484-495202469d5e",
-      "name": "anthropic-agent-skills",
+      "name": "anthropic-skills",
       "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
       "source": "./",
       "category": "ai-tools",
       "i18n": {
         "en": {
-          "displayName": "Anthropic Agent Skills",
+          "displayName": "Anthropic Skills",
           "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
           "tagLabels": {
             "skills": "Skills",
