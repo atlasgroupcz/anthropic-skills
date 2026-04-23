@@ -27,6 +27,7 @@
     "mcp"
   ],
   "strict": false,
+  "postInstall": "true",
   "i18n": {
     "en": {
       "displayName": "Example Skills",

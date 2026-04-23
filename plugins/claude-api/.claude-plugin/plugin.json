@@ -24,6 +24,7 @@
     "api"
   ],
   "strict": false,
+  "postInstall": "true",
   "i18n": {
     "en": {
       "displayName": "Claude API",
