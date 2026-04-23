@@ -1,55 +1,50 @@
 {
+  "uuid": "481c87a4-ce4c-45ad-bbe3-f55e3fa531d1",
   "name": "anthropic-agent-skills",
+  "description": "Anthropic Agent Skills marketplace for CODEXIS AI 2.0",
   "owner": {
-    "name": "Keith Lazuka",
-    "email": "klazuka@anthropic.com"
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
   },
   "metadata": {
-    "description": "Anthropic example skills",
+    "description": "Anthropic's public Agent Skills examples and document skills",
     "version": "1.0.0"
+  },
+  "i18n": {
+    "en": {
+      "displayName": "Anthropic Agent Skills",
+      "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
+      "tagLabels": {
+        "skills": "Skills",
+        "anthropic": "Anthropic",
+        "claude": "Claude",
+        "documents": "Documents",
+        "development": "Development",
+        "design": "Design"
+      }
+    }
   },
   "plugins": [
     {
-      "name": "document-skills",
-      "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+      "uuid": "0fbb666f-c048-4786-8484-495202469d5e",
+      "name": "anthropic-agent-skills",
+      "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
       "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/xlsx",
-        "./skills/docx",
-        "./skills/pptx",
-        "./skills/pdf"
-      ]
-    },
-    {
-      "name": "example-skills",
-      "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/algorithmic-art",
-        "./skills/brand-guidelines",
-        "./skills/canvas-design",
-        "./skills/doc-coauthoring",
-        "./skills/frontend-design",
-        "./skills/internal-comms",
-        "./skills/mcp-builder",
-        "./skills/skill-creator",
-        "./skills/slack-gif-creator",
-        "./skills/theme-factory",
-        "./skills/web-artifacts-builder",
-        "./skills/webapp-testing"
-      ]
-    }
-    ,
-    {
-      "name": "claude-api",
-      "description": "Claude API and SDK documentation skill for building LLM-powered applications",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/claude-api"
-      ]
+      "category": "ai-tools",
+      "i18n": {
+        "en": {
+          "displayName": "Anthropic Agent Skills",
+          "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
+          "tagLabels": {
+            "skills": "Skills",
+            "anthropic": "Anthropic",
+            "claude": "Claude",
+            "documents": "Documents",
+            "development": "Development",
+            "design": "Design"
+          }
+        }
+      }
     }
   ]
 }

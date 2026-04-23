@@ -1,0 +1,47 @@
+{
+  "name": "anthropic-agent-skills",
+  "version": "1.0.0",
+  "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
+  "homepage": "https://github.com/anthropics/skills",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "keywords": [
+    "anthropic",
+    "claude",
+    "agent-skills",
+    "skills",
+    "documents",
+    "development",
+    "design",
+    "communication",
+    "mcp"
+  ],
+  "license": "MIXED",
+  "category": "ai-tools",
+  "tags": [
+    "skills",
+    "anthropic",
+    "claude",
+    "documents",
+    "development",
+    "design"
+  ],
+  "strict": false,
+  "i18n": {
+    "en": {
+      "displayName": "Anthropic Agent Skills",
+      "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
+      "tagLabels": {
+        "skills": "Skills",
+        "anthropic": "Anthropic",
+        "claude": "Claude",
+        "documents": "Documents",
+        "development": "Development",
+        "design": "Design"
+      }
+    }
+  },
+  "skills": "./skills"
+}
