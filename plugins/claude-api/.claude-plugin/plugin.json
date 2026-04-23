@@ -1,0 +1,40 @@
+{
+  "name": "claude-api",
+  "version": "1.0.0",
+  "description": "Claude API and SDK documentation skill for building LLM-powered applications.",
+  "homepage": "https://github.com/anthropics/skills",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "keywords": [
+    "anthropic",
+    "claude",
+    "claude-api",
+    "sdk",
+    "api",
+    "managed-agents"
+  ],
+  "license": "Apache-2.0",
+  "category": "development",
+  "tags": [
+    "anthropic",
+    "claude",
+    "development",
+    "api"
+  ],
+  "strict": false,
+  "i18n": {
+    "en": {
+      "displayName": "Claude API",
+      "description": "Claude API and SDK documentation skill for building LLM-powered applications.",
+      "tagLabels": {
+        "anthropic": "Anthropic",
+        "claude": "Claude",
+        "development": "Development",
+        "api": "API"
+      }
+    }
+  },
+  "skills": "./skills"
+}

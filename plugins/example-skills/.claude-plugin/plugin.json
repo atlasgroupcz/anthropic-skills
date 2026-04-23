@@ -1,0 +1,44 @@
+{
+  "name": "example-skills",
+  "version": "1.0.0",
+  "description": "Anthropic example skills for design, communication, MCP building, web artifacts, web app testing, and skill creation.",
+  "homepage": "https://github.com/anthropics/skills",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "keywords": [
+    "anthropic",
+    "claude",
+    "agent-skills",
+    "skills",
+    "design",
+    "development",
+    "communication",
+    "mcp"
+  ],
+  "license": "Apache-2.0",
+  "category": "ai-tools",
+  "tags": [
+    "skills",
+    "design",
+    "development",
+    "communication",
+    "mcp"
+  ],
+  "strict": false,
+  "i18n": {
+    "en": {
+      "displayName": "Example Skills",
+      "description": "Anthropic example skills for design, communication, MCP building, web artifacts, web app testing, and skill creation.",
+      "tagLabels": {
+        "skills": "Skills",
+        "design": "Design",
+        "development": "Development",
+        "communication": "Communication",
+        "mcp": "MCP"
+      }
+    }
+  },
+  "skills": "./skills"
+}

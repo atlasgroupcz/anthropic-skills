@@ -1,7 +1,7 @@
 {
   "uuid": "481c87a4-ce4c-45ad-bbe3-f55e3fa531d1",
   "name": "anthropic-skills",
-  "description": "Anthropic Agent Skills marketplace for CODEXIS AI 2.0",
+  "description": "Anthropic Skills marketplace for CODEXIS AI 2.0",
   "owner": {
     "name": "Anthropic",
     "email": "support@anthropic.com"
@@ -26,22 +26,60 @@
   },
   "plugins": [
     {
-      "uuid": "0fbb666f-c048-4786-8484-495202469d5e",
-      "name": "anthropic-skills",
-      "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
-      "source": "./",
+      "uuid": "a7591835-b2cc-4e75-b954-ea8afbf7122b",
+      "name": "document-skills",
+      "description": "Document processing skills for Excel, Word, PowerPoint, and PDF files.",
+      "source": "./plugins/document-skills",
+      "category": "document-processing",
+      "i18n": {
+        "en": {
+          "displayName": "Document Skills",
+          "description": "Document processing skills for Excel, Word, PowerPoint, and PDF files.",
+          "tagLabels": {
+            "documents": "Documents",
+            "xlsx": "Spreadsheets",
+            "docx": "Word",
+            "pptx": "PowerPoint",
+            "pdf": "PDF"
+          }
+        }
+      }
+    },
+    {
+      "uuid": "385ec435-c23c-4c91-9b61-2f0917cea7c0",
+      "name": "example-skills",
+      "description": "Anthropic example skills for design, communication, MCP building, web artifacts, web app testing, and skill creation.",
+      "source": "./plugins/example-skills",
       "category": "ai-tools",
       "i18n": {
         "en": {
-          "displayName": "Anthropic Skills",
-          "description": "Anthropic's public Agent Skills examples, including document, design, development, communication, and Claude API skills.",
+          "displayName": "Example Skills",
+          "description": "Anthropic example skills for design, communication, MCP building, web artifacts, web app testing, and skill creation.",
           "tagLabels": {
             "skills": "Skills",
+            "design": "Design",
+            "development": "Development",
+            "communication": "Communication",
+            "mcp": "MCP"
+          }
+        }
+      }
+    },
+    {
+      "uuid": "0a6aa236-4875-4222-81d1-e5c273fde1af",
+      "name": "claude-api",
+      "description": "Claude API and SDK documentation skill for building LLM-powered applications.",
+      "source": "./plugins/claude-api",
+      "category": "development",
+      "i18n": {
+        "en": {
+          "displayName": "Claude API",
+          "description": "Claude API and SDK documentation skill for building LLM-powered applications.",
+          "tagLabels": {
             "anthropic": "Anthropic",
             "claude": "Claude",
-            "documents": "Documents",
             "development": "Development",
-            "design": "Design"
+            "api": "API"
           }
         }
       }

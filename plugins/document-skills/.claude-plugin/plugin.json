@@ -1,0 +1,43 @@
+{
+  "name": "document-skills",
+  "version": "1.0.0",
+  "description": "Document processing skills for Excel, Word, PowerPoint, and PDF files.",
+  "homepage": "https://github.com/anthropics/skills",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "keywords": [
+    "anthropic",
+    "claude",
+    "documents",
+    "xlsx",
+    "docx",
+    "pptx",
+    "pdf"
+  ],
+  "license": "MIXED",
+  "category": "document-processing",
+  "tags": [
+    "documents",
+    "xlsx",
+    "docx",
+    "pptx",
+    "pdf"
+  ],
+  "strict": false,
+  "i18n": {
+    "en": {
+      "displayName": "Document Skills",
+      "description": "Document processing skills for Excel, Word, PowerPoint, and PDF files.",
+      "tagLabels": {
+        "documents": "Documents",
+        "xlsx": "Spreadsheets",
+        "docx": "Word",
+        "pptx": "PowerPoint",
+        "pdf": "PDF"
+      }
+    }
+  },
+  "skills": "./skills"
+}
